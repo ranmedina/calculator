@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+h1 {
+    font-family: 'Arial';
+    text-align: center;
+    margin-top: 100px;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Arial';
+    text-align: center;  
+}
+
+#calculator-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 2em auto;
+    font-family: 'Segoe UI';
+}
+
+#calculator-container #mathInput {
+    display: block;
+    width: 100%;
+    height: 90px;
+    border: 0;
+    background-image: linear-gradient(#92cfde, #76bdd1);
+    text-align: right;
+    font-size: 45px;
+    padding: 20 20 1;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+}
+
+#calculator-container #mathSave {
+    display: inline-block;
+    position: absolute;
+    top: -8px;
+    left: 8;
+    opacity: 0.4;
+    font-size: 13px;
+}
+
+#calculator-container table {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#calculator-container table td {
+    background-image: linear-gradient(#92cfde, #76bdd1);
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#calculator-container table td.number {
+    background-image: linear-gradient(#c5e4ec, #a7d1dd);
+}
+
+#calculator-container table td:hover {
+    background-color: #6bbed2; 
+    background-image: linear-gradient(#6bbed2, #50abc4);
+}
